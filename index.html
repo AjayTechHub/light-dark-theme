@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Light Dark Theme</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-theme="">
+
+  <!-- Theme Toggle Button -->
+  <div class="theme-toggle-btn" data-theme="" onclick="onThemeToggle(this)">
+    <span class="slider"></span>
+    <span class="icon moon"></span>
+    <span class="icon sun"></span>
+  </div>
+
+  <!-- Login Form -->
+  <div class="login-form">
+    <h1>Login Form</h1>
+    <form action="#">
+      <input type="text" name="username" class="username" placeholder="Username" autocomplete="off">
+      <input type="password" name="password" class="password" placeholder="Password">
+      <p class="remember-me">
+        <input type="checkbox">Stay signed in
+      </p>
+      <button class="login-btn">LOGIN</button>
+      <a href="" class="forgot-password">Forgot password?</a>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
